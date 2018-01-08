@@ -3,7 +3,7 @@
 Consume and resize photos, listing the resized photos on a rest api
 
 ### Enviroment requirements
-* MongoDB server installed
+* MongoDB server installed and running
 
 ### Installation
 * npm install
@@ -17,6 +17,8 @@ Consume and resize photos, listing the resized photos on a rest api
 * npm run test
 
 ## Basic usage
+
+* application runs on port 3000
 
 ### Update photos from remote server:
 
