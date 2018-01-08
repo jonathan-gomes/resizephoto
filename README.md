@@ -1,6 +1,9 @@
 ## ResizePhoto rest api
 
-clone the project
+Consume and resize photos, listing the resized photos on a rest api
+
+### Enviroment requirements
+* MongoDB server installed
 
 ### Installations
 * npm install
@@ -12,3 +15,13 @@ clone the project
 ### Test
 
 * npm run test
+
+## Basic usage
+
+## 1 - Update photos from remote server:
+
+* /updatephotos
+
+## 2 - List resized photos:
+
+* /listphotos
