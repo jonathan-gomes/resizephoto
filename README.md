@@ -5,7 +5,7 @@ Consume and resize photos, listing the resized photos on a rest api
 ### Enviroment requirements
 * MongoDB server installed
 
-### Installations
+### Installation
 * npm install
 
 ### Run
@@ -18,10 +18,10 @@ Consume and resize photos, listing the resized photos on a rest api
 
 ## Basic usage
 
-## 1 - Update photos from remote server:
+### Update photos from remote server:
 
 * /updatephotos
 
-## 2 - List resized photos:
+### List resized photos:
 
 * /listphotos
