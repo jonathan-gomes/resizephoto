@@ -31,27 +31,27 @@ describe('ListPhotos', function() {
 });
 
 describe('SmallImage', function() {
-  it('Images listed should have an url pointing to a small photo of ' + imgMediumDefSize + ' dimensions', function() {
+  it('Images listed should have an url pointing to a small photo of ' + imgSmallDefSize + ' dimensions', function() {
     request(photosUpdateUrl, function (error, response, body) {
       var jsonBody = JSON.parse(body);
       var imgSize = "";
       Jimp.read(jsonBody[0].smallUrl, function (err, image) {
         imgSize = image.bitmap.width + "x" + image.bitmap.height;
       });
-      expect(jsonBody.length).to.equal(imgMediumDefSize);
+      expect(jsonBody.length).to.equal(imgSmallDefSize);
     });
   });
 });
 
 describe('MediumImage', function() {
-  it('Images listed should have an url pointing to a medium photo of ' + imgSmallDefSize + ' dimensions', function() {
+  it('Images listed should have an url pointing to a medium photo of ' + imgMediumDefSize + ' dimensions', function() {
     request(photosUpdateUrl, function (error, response, body) {
       var jsonBody = JSON.parse(body);
       var imgSize = "";
       Jimp.read(jsonBody[0].mediumUrl, function (err, image) {
         imgSize = image.bitmap.width + "x" + image.bitmap.height;
       });
-      expect(jsonBody.length).to.equal(imgSmallDefSize);
+      expect(jsonBody.length).to.equal(imgMediumDefSize);
     });
   });
 });
