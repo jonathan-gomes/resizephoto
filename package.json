@@ -1,0 +1,36 @@
+{
+  "name": "resizephoto",
+  "version": "1.0.0",
+  "description": "RESTful ResizePhoto",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/generalgmt/RESTfulAPITutorial.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "olatunde garuba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/generalgmt/RESTfulAPITutorial/issues"
+  },
+  "homepage": "https://github.com/generalgmt/RESTfulAPITutorial#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^4.1.2",
+    "express": "^4.14.0",
+    "jimp": "^0.2.28",
+    "mocha": "^4.1.0",
+    "mongoose": "^4.7.2"
+  }
+}
